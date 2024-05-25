@@ -14,7 +14,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.1.0</version>
         <configuration>
-          <mainClass>pl.poznan.jug.generator.Generator</mainClass>
+          <mainClass>pl.poznan.jug.lottery.Generator</mainClass>
         </configuration>
       </plugin>
     </plugins>

@@ -1,4 +1,4 @@
-# Poznań JUG random generator
+# Poznań JUG lottery
 
 ## Purpose
 

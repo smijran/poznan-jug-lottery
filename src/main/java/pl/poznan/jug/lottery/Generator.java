@@ -1,4 +1,4 @@
-package pl.poznan.jug.generator;
+package pl.poznan.jug.lottery;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,11 +13,13 @@ public final class Generator {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         scan.nextLine();
+
         ArrayList<Integer> listOfIntegers =
                 IntStream.range(1, i)
                         .boxed()
                         .collect(Collectors.toCollection(ArrayList::new));
         Collections.shuffle(listOfIntegers);
+
         Iterator<Integer> winnersIterator = listOfIntegers.iterator();
         while (winnersIterator.hasNext()) {
             System.out.printf("Shuffle?");
